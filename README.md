@@ -1,6 +1,8 @@
 # formr4conjoint
 
-[formr](https://formr.org/) is an impressively flexible platform for making surveys using R. In this demo, I'm going to show you one way to use formr to make a choice-based conjoint survey. If you've found this page, I'm going to assume you know what that is.
+[formr](https://formr.org/) is an impressively flexible platform for making surveys using R. In this demo, I'm going to show you one way to use formr to make a choice-based conjoint survey (if you've found this page, I'm going to assume you know what that is).
+
+Here's the [live demo](https://appleconjoint.formr.org/) - a choice-based conjoint survey about apples.
 
 # Getting started
 
