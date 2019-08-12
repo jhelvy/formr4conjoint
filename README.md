@@ -29,14 +29,14 @@ To make a conjoint survey work, you have to keep track of which respondent is ta
 At the top of the Google sheet, rows 2-4 do some up-front computations. Respondents don't see these because they are of the type "calculate" (see the "type" column). Here's what they do:
 
 1) Row 2 is called "doePath", and waaaaaay over on the right-most column called "value" I've input the path to the `doe.csv` file in quotes (you can also upload this file to formr inside a survey run, but for now I'm just linking to the file on GitHub). This path gets stored as a character value with the variable name `doePath`.
-2) Row 3 is called "maxResp", and you'll see in the "value" column I've written some code to compute the maximum respondent ID number, which gets stored as a variable called `maxResp`. Note that I'm calling the "doePath" variable here to read in the `doe.csv` file. **Important**: Here you just put the direct R code - no need to add the RMarkdown ````{r}` syntax.
+2) Row 3 is called "maxResp", and you'll see in the "value" column I've written some code to compute the maximum respondent ID number, which gets stored as a variable called `maxResp`. Note that I'm calling the "doePath" variable here to read in the `doe.csv` file. **Important**: Here you just put the direct R code - no need to add the RMarkdown ` ```{r} ` syntax.
 3) Finally, I get the current respondentID by using `.formr$nr_of_participants + 1` (`+1` because the first one starts at zero). Note that I have a conditional statement here because if the current respondent number goes beyond the maximum number of respondents in my DOE I'll get an error later. So I use the mod operator (`%%`) to make sure that the respondentID starts over again at 1.
 
 Note that I also created a row called "imagePath" that stores the path to the images I'll use later.
 
-# Conjoint choice questions
+## Conjoint choice questions
 
-Now that I've got my `respondentID` variable, I can use it to filter out the full DOE to only show the choice questions for that respondent (Note: I'm using the `data.table` package to do manage the doe here). In row 10, I have my first conjoint question called "cbc1". In the "type" column I have "mc" (for multiple choice), and then in the "label" column I use a RMarkdown code chunk to filter out the choice alternatives. Note that I also compute the paths to the images associated with each alterantive in this chunk:
+Now that I've got my `respondentID` variable, I can use it to filter out the full DOE to only show the choice questions for that respondent (Note: I'm using the `data.table` package to manage this). In row 10 of my Google sheet, I have my first conjoint question called "cbc1". In the "type" column I have "mc" (for multiple choice), and then in the "label" column I use a RMarkdown code chunk to filter out the choice alternatives. Note that I also compute the paths to the images associated with each alterantive in this chunk:
 
 ````markdown
 ```{r message=FALSE}
@@ -59,7 +59,7 @@ imagePath3 <- paste(imagePath, alt3$image, sep='')
 (1 of 3) If these were your only options, which would you choose?
 ````
 
-With each alternative saved as a vector, I then call them in the choice options, also using RMarkdown. Here's what's in the first alternative:
+With each alternative now saved, I can then again use RMarkdown to call them in the choice options. Here's what's in the first alternative:
 
 ````markdown
 **Option 1**
@@ -75,7 +75,7 @@ With each alternative saved as a vector, I then call them in the choice options,
 
 And that's it! The only thing I have to do for the other choice questions is update the filtering so that it shows the correct rows for question 2, question 3, etc.
 
-## Uploading the survey
+## Upload the survey
 
 Go to your admin page, click on "Create Survey", then import the Google sheet. On the left panel you can click "Test Survey" to preview it.
 
