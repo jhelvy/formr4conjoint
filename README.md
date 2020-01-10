@@ -64,8 +64,6 @@ With each alternative now saved, I can then again use RMarkdown to call them in 
 ````markdown
 **Option 1**
 
----
-
 ![](`r imagePath1`){width=100}
 
 **Type**: `r alt1$type`
