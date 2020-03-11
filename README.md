@@ -36,7 +36,7 @@ Note that I also created a row called "imagePath" that stores the path to the im
 
 ## Conjoint choice questions
 
-Now that I've got my `respondentID` variable, I can use it to filter out the full DOE to only show the choice questions for that respondent (Note: I'm using the `data.table` package to manage this). In row 10 of my Google sheet, I have my first conjoint question called "cbc1". In the "type" column I have "mc" (for multiple choice), and then in the "label" column I use a RMarkdown code chunk to filter out the choice alternatives. Note that I also compute the paths to the images associated with each alterantive in this chunk:
+Now that I've got my `respondentID` variable, I can use it to filter out the full DOE to only show the choice questions for that respondent (Note: I'm using the `data.table` package to manage this). In row 10 of my Google sheet, I have my first conjoint question called "cbc1". In the "type" column I have "mc" (for multiple choice), and then in the "label" column I use a RMarkdown code chunk to filter out the choice alternatives. Note that I also compute the paths to the images associated with each alternative in this chunk:
 
 ````markdown
 ```{r message=FALSE}
