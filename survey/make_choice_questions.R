@@ -45,4 +45,4 @@ survey <- survey %>%
 head(survey) # preview
 
 # Save design
-write_csv(survey, file.path('survey', 'survey.csv'))
+write_csv(survey, file.path('survey', 'choice_questions.csv'))

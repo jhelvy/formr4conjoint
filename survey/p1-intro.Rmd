@@ -1,0 +1,39 @@
+---
+output: html_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse   = TRUE,
+  warning    = FALSE,
+  message    = FALSE,
+  comment    = "#>",
+  fig.path   = "man/figures/",
+  fig.retina = 3
+)
+```
+
+# Welcome to our survey!
+
+For this survey, we will ask you about your preferences for different types of apples.
+
+---
+
+Do you like fruit?
+
+- Yes!
+- Kind of
+- No :(
+
+What is your favorite fruit?
+
+(open text response)
+
+---
+
+Before we go on, please select which color you prefer between these two:
+
+- Blue
+- Red
+
+(For this example, I'm using the response here to screen out respondents - I'm only interested in people who choose "Red", so if you choose "Blue" you'll be screened out. Usually you would not tell respondents ahead of time how they will be screened - I'm just putting an explanation here since this whole survey is for demonstration purposes)

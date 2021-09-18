@@ -1,0 +1,110 @@
+---
+output: html_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse   = TRUE,
+  warning    = FALSE,
+  message    = FALSE,
+  comment    = "#>",
+  fig.path   = "man/figures/",
+  fig.retina = 3
+)
+```
+
+Thank you for your feedback! The next section will ask some basic questions about apples.
+
+Please answer to the best of your knowledge.
+
+Please select the type of this apple:
+
+![](https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg){width=100}
+
+Fuji
+Gala
+Honeycrisp
+Pink Lady
+Red Delicious
+
+Please select the type of this apple:
+
+![](https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/gala.jpg){width=100}
+
+Fuji
+Gala
+Honeycrisp
+Pink Lady
+Red Delicious
+
+---
+
+## Nice job!
+
+We're almost done! We'd just like to ask just a few more questions about you which we will only use for analyzing our survey data.
+
+(1) In what year were you born?
+
+(Drop down menu including `Prefer not to say` and years `1920` - `2003`)
+
+(2) What is your current gender identity?
+Different identity (please state):
+
+- Male
+- Female
+- Trans male/trans man
+- Trans female/trans woman
+- Genderqueer/gender non-conforming
+- Prefer not to say
+
+(3) I identify my race as (select all that apply):
+Different identity (please state):
+
+- Asian
+- African American or Black
+- White (Not of Hispanic or Latino origin)
+- Hispanic or Latino
+- American Indian or Alaska Native
+- Native Hawaiian or Pacific Islander
+- Prefer not to say
+
+(4) What is the highest degree or level of school you have completed? If currently enrolled, please use the highest degree received.
+
+- Less than a high school diploma
+- High school degree or equivalent (e.g. GED)
+- Some college or university, no college degree
+- Trade/technical/vocational training, no degree awarded
+- Associate's degree (e.g. AA, AS)
+- Bachelor’s degree (e.g. BA, BS)
+- Graduate or Professional Degree (e.g. PhD, MD, JD, MS)
+- Prefer not to say
+
+(5) What is your annual household income (from all sources) before taxes and other deductions from pay?
+
+- Less than $10,000
+- $10,000 - $14,999
+- $15,000 - $24,999
+- $25,000 - $34,999
+- $35,000 - $49,999
+- $50,000 - $74,999
+- $75,000 - $99,999
+- $100,000 - $149,999
+- $150,000 - $199,999
+- $200,000 or more
+- Prefer not to say
+
+Please let us know if you have any other thoughts or feedback on this survey.
+
+Your feedback will help us make future improvements :)
+
+(Open text response)
+
+---
+
+```{r, include=FALSE}
+completionCode <- round(runif(1, 10^5, 10^6))
+```
+
+### Your completion code is: `r completionCode`
+
+Finish

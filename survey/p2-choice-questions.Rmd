@@ -1,0 +1,71 @@
+---
+output: html_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse   = TRUE,
+  warning    = FALSE,
+  message    = FALSE,
+  comment    = "#>",
+  fig.path   = "man/figures/",
+  fig.retina = 3
+)
+```
+
+```{r, include=FALSE}
+# Read in the choice questions
+library(tidyverse)
+survey <- read_csv("https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/choice_questions.csv")
+
+# Define the respondent ID
+respondentID <- sample(survey$respID, 1)
+
+# Create the subset of rows for that respondent ID
+df <- survey %>%
+    filter(respID == respondentID) %>%
+    mutate(image = paste0("https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/", image))
+
+# Convert df to json
+df_json <- jsonlite::toJSON(df)
+```
+
+# Great work!
+
+Now let's begin the choice tasks. You will be asked 8 questions in total.
+
+---
+
+(1 of 8) If these were your only options, which would you choose?
+
+```{r, include=FALSE}
+library(dplyr)
+temp <- jsonlite::fromJSON(df_json)
+alt1 <- temp %>% filter(qID == 1, altID == 1)
+alt2 <- temp %>% filter(qID == 1, altID == 2)
+alt3 <- temp %>% filter(qID == 1, altID == 3)
+```
+
+**Option 1**
+
+![](`r alt1$image`){width=100}
+
+**Type**: `r alt1$type`
+**Price**: $ `r alt1$price` / lb
+**Freshness**: `r alt1$freshness`
+
+**Option 2**
+
+![](`r alt2$image`){width=100}
+
+**Type**: `r alt2$type`
+**Price**: $ `r alt2$price` / lb
+**Freshness**: `r alt2$freshness`
+
+**Option 3**
+
+![](`r alt3$image`){width=100}
+
+**Type**: `r alt3$type`
+**Price**: $ `r alt3$price` / lb
+**Freshness**: `r alt3$freshness`
