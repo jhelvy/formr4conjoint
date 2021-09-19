@@ -29,7 +29,7 @@ library(fontawesome)
 
 [formr.org](https://formr.org/) is a flexible platform for making surveys using `r fa("r-project")`. This repo contains files for designing and implementing a demo conjoint survey with formr about people's preferences for apples with three attributes: `type`, `price`, and `freshness`.
 
-See [this post]() for more details about the demo.
+See [this post](https://www.jhelvy.com/posts/2021-09-18-choice-based-conjoint-surveys-in-r-with-formr/) for more details about the demo.
 
 You can view the live demo survey [here](https://appleconjoint.formr.org/)
 
