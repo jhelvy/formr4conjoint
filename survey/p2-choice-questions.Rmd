@@ -30,25 +30,88 @@ df <- survey %>%
 df_json <- jsonlite::toJSON(df)
 ```
 
-# Great work!
+# Great work! 
 
-Now let's begin the choice tasks. You will be asked 8 questions in total.
+Now that you've shared a bit about yourself, we'd like you to consider a shopping scenario in which you can choose some apples to purchase from a set of apples with different attributes.
+
+Let's learn about these attributes:
+
+## Price
+
+Price refers to the full price you will pay (including taxes) for the apples
+
+## Freshness
+
+The freshness of the apple will be presented as one of three different categories:
+
+- **Excellent**: No bruising or marks. 
+- **Average**: One or two light bruises. 
+- **Excellent**: Multiple bruises and market. 
+
+## Type
+
+We will show five different types of apples:
+
+Fuji | Gala | Honeycrisp | Pink Lady | Red Delicious
+-----|------|------------|-----------|--------------
+<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg" width=100</img> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/gala.jpg" width=100</img> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/honeycrisp.jpg" width=100</img> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/pinkLady.jpg" width=100</img> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/redDelicious.jpg" width=100</img>
 
 ---
+
+We'll now begin the choice tasks. On the next few pages we will show you three options of apples and we'll ask you to choose the one you most prefer. 
+
+For example, if these were the only apples available, which woudld you choose?
+
+[mc_button type question with the following three options]
+
+**Option 1**
+
+<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg" width=100</img>
+
+**Type**: Fuji
+**Price**: $ 2 / lb
+**Freshness**: Poor
+
+**Option 2**
+
+<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg" width=100</img>
+
+**Type**: Fuji
+**Price**: $ 1 / lb
+**Freshness**: Excellent
+
+**Option 3**
+
+<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg" width=100</img>
+
+**Type**: Fuji
+**Price**: $ 3 / lb
+**Freshness**: Average
+
+---
+
+# Great work!
+
+We will now show you 8 sets of choice questions starting on the next page.
+
+---
+
+[mc_button type question with the following three options]
 
 (1 of 8) If these were your only options, which would you choose?
 
 ```{r, include=FALSE}
 library(dplyr)
-temp <- jsonlite::fromJSON(df_json)
-alt1 <- temp %>% filter(qID == 1, altID == 1)
-alt2 <- temp %>% filter(qID == 1, altID == 2)
-alt3 <- temp %>% filter(qID == 1, altID == 3)
+alts <- jsonlite::fromJSON(df_json) %>% 
+  filter(qID == 1)
+alt1 <- alts %>% filter(altID == 1)
+alt2 <- alts %>% filter(altID == 2)
+alt3 <- alts %>% filter(altID == 3)
 ```
 
 **Option 1**
 
-![](`r alt1$image`){width=100}
+<img src=`r alt1$image` width=100>
 
 **Type**: `r alt1$type`
 **Price**: $ `r alt1$price` / lb
@@ -56,7 +119,7 @@ alt3 <- temp %>% filter(qID == 1, altID == 3)
 
 **Option 2**
 
-![](`r alt2$image`){width=100}
+<img src=`r alt2$image` width=100>
 
 **Type**: `r alt2$type`
 **Price**: $ `r alt2$price` / lb
@@ -64,7 +127,7 @@ alt3 <- temp %>% filter(qID == 1, altID == 3)
 
 **Option 3**
 
-![](`r alt3$image`){width=100}
+<img src=`r alt3$image` width=100>
 
 **Type**: `r alt3$type`
 **Price**: $ `r alt3$price` / lb

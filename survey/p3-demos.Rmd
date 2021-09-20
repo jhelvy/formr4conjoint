@@ -19,23 +19,25 @@ Please answer to the best of your knowledge.
 
 Please select the type of this apple:
 
-![](https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg){width=100}
+<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg" width=100>
 
-Fuji
-Gala
-Honeycrisp
-Pink Lady
-Red Delicious
+- Fuji
+- Gala
+- Honeycrisp
+- Pink Lady
+- Red Delicious
 
 Please select the type of this apple:
 
-![](https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/gala.jpg){width=100}
+Please select the type of this apple:
 
-Fuji
-Gala
-Honeycrisp
-Pink Lady
-Red Delicious
+<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/gala.jpg" width=100>
+
+- Fuji
+- Gala
+- Honeycrisp
+- Pink Lady
+- Red Delicious
 
 ---
 
