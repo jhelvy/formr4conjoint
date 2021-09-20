@@ -60,7 +60,7 @@ Fuji | Gala | Honeycrisp | Pink Lady | Red Delicious
 
 We'll now begin the choice tasks. On the next few pages we will show you three options of apples and we'll ask you to choose the one you most prefer. 
 
-For example, if these were the only apples available, which woudld you choose?
+For example, if these were the only apples available, which would you choose?
 
 [mc_button type question with the following three options]
 
