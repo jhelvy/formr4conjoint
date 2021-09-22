@@ -15,7 +15,26 @@ knitr::opts_chunk$set(
 
 # Welcome to our survey!
 
-For this survey, we will ask you about your preferences for different types of apples.
+
+Thank you for participating in this survey, which is part of a research effort by The George Washing University. For this survey, we will ask you about your preferences for different types of apples.
+
+---
+
+# Consent form
+
+This survey is being conducted by students at The George Washing University. We will not be collecting any identifying data, such as your name or address. The whole survey will take approximately 10 to 15 minutes to complete. Your participation is voluntary and you may stop the survey at any time.
+
+If you would like to participate, please answer the following questions:
+
+I am age 18 or older
+
+- Yes
+- No
+
+I have read and understand the above information
+
+- Yes
+- No
 
 ---
 
