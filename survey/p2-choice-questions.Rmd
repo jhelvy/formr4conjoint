@@ -46,7 +46,7 @@ The freshness of the apple will be presented as one of three different categorie
 
 - **Excellent**: No bruising or marks. 
 - **Average**: One or two light bruises. 
-- **Excellent**: Multiple bruises and market. 
+- **Poor**: Multiple bruises and marks.
 
 ## Type
 
