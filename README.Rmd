@@ -33,6 +33,15 @@ See [this post](https://www.jhelvy.com/posts/2021-09-18-choice-based-conjoint-su
 
 You can view the live demo survey [here](https://appleconjoint.formr.org/)
 
+## Packages
+
+If you want to run the code in the `survey` folder, you will need to install the following packages:
+
+```{r, eval=FALSE}
+install.packages(c("remotes", "tidyverse", "jsonlite"))
+remotes::install_github("jhelvy/conjointTools")
+```
+
 ## Author and License Information
 
 - Author: *John Paul Helveston* https://www.jhelvy.com/
