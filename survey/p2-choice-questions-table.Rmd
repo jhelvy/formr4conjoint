@@ -1,0 +1,122 @@
+---
+output: html_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse   = TRUE,
+  warning    = FALSE,
+  message    = FALSE,
+  comment    = "#>",
+  fig.path   = "man/figures/",
+  fig.retina = 3
+)
+```
+
+```{r, include=FALSE}
+# Read in the choice questions
+library(tidyverse)
+survey <- read_csv("https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/choice_questions.csv")
+
+# Define the respondent ID
+respondentID <- sample(survey$respID, 1)
+
+# Create the subset of rows for that respondent ID
+df <- survey %>%
+    filter(respID == respondentID) %>%
+    mutate(image = paste0("https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/", image))
+
+# Convert df to json
+df_json <- jsonlite::toJSON(df)
+```
+
+# Great work! 
+
+Now that you've shared a bit about yourself, we'd like you to consider a shopping scenario in which you can choose some apples to purchase from a set of apples with different attributes.
+
+Let's learn about these attributes:
+
+## Price
+
+Price refers to the full price you will pay (including taxes) for the apples
+
+## Freshness
+
+The freshness of the apple will be presented as one of three different categories:
+
+- **Excellent**: No bruising or marks. 
+- **Average**: One or two light bruises. 
+- **Poor**: Multiple bruises and marks.
+
+## Type
+
+We will show five different types of apples:
+
+Fuji | Gala | Honeycrisp | Pink Lady | Red Delicious
+-----|------|------------|-----------|--------------
+<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg" width=100> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/gala.jpg" width=100> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/honeycrisp.jpg" width=100> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/pinkLady.jpg" width=100> | <img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/redDelicious.jpg" width=100>
+
+---
+
+We'll now begin the choice tasks. On the next few pages we will show you three options of apples and we'll ask you to choose the one you most prefer. 
+
+For example, if these were the only apples available, which would you choose?
+
+[mc_button type question with the following three options]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(kableExtra)
+alts <- tibble(
+    `Option:` = c("Option 1", "Option 2", "Option 3"), 
+    ` ` = rep('<img src="https://raw.githubusercontent.com/jhelvy/formr4conjoint/master/survey/images/fuji.jpg" width=100>', 3),
+    `Price:` = scales::dollar(c(2, 1, 3)), 
+    `Type:` = rep("Fuji", 3), 
+    `Freshness:` = c("Poor", "Excellent", "Average"))
+row.names(alts) <- NULL # Drop row names
+
+kable(t(alts), escape = FALSE) %>% 
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"), 
+    full_width = FALSE, 
+    position = "center"
+  )
+```
+
+---
+
+# Great work!
+
+We will now show you 8 sets of choice questions starting on the next page.
+
+---
+
+[mc_button type question with the following three options]
+
+(1 of 8) If these were your only options, which would you choose?
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(kableExtra)
+alts <- jsonlite::fromJSON(df_json) %>%
+  filter(qID == 1) %>% 
+  mutate(
+    price = paste(scales::dollar(price), "/ lb"),
+    image = paste0('<img src="', image, '" width=100>')) %>% 
+  # Make nicer attribute labels
+  select(
+    `Option:` = altID, 
+    ` ` = image,
+    `Price:` = price, 
+    `Type:` = type, 
+    `Freshness:` = freshness)
+row.names(alts) <- NULL # Drop row names
+
+kable(t(alts), escape = FALSE) %>% 
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"), 
+    full_width = FALSE, 
+    position = "center"
+  )
+```
+
