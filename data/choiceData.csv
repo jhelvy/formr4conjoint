@@ -1,0 +1,217 @@
+time_sec_p1,likeFruit,favFruit,screenout,time_sec_p2,respID,cbcPractice,cbcAllSame,time_sec_p3,yearOfBirth,gender,genderOther,race,raceOther,education,income,feedback,time_min_total,qID,choice,altID,obsID,type,price,freshness
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,1,1,1,5705,Red Delicious,1,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,1,0,2,5705,Red Delicious,2,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,1,0,3,5705,Honeycrisp,3,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,2,0,1,5706,Red Delicious,1,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,2,1,2,5706,Fuji,2.5,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,2,0,3,5706,Fuji,3,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,3,1,1,5707,Honeycrisp,3,Excellent
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,3,0,2,5707,Pink Lady,4,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,3,0,3,5707,Red Delicious,3.5,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,4,0,1,5708,Pink Lady,3,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,4,0,2,5708,Pink Lady,4,Excellent
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,4,1,3,5708,Fuji,1,Excellent
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,5,1,1,5709,Honeycrisp,2.5,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,5,0,2,5709,Red Delicious,1,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,5,0,3,5709,Pink Lady,4,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,6,1,1,5710,Honeycrisp,2,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,6,0,2,5710,Honeycrisp,3.5,Excellent
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,6,0,3,5710,Pink Lady,2,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,7,0,1,5711,Fuji,2,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,7,1,2,5711,Honeycrisp,1,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,7,0,3,5711,Pink Lady,4,Poor
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,8,0,1,5712,Red Delicious,4,Average
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,8,0,2,5712,Pink Lady,4,Excellent
+18,1,Apples of course!,2,148,714,2,0,21,1993,transMale,NA,hispanic,NA,vocational,inc_10to15,great survey!,3.1166666666666667,8,1,3,5712,Gala,1.5,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,1,0,1,13921,Gala,2,Poor
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,1,1,2,13921,Gala,1,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,1,0,3,13921,Gala,2,Average
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,2,0,1,13922,Pink Lady,2.5,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,2,0,2,13922,Red Delicious,3.5,Poor
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,2,1,3,13922,Honeycrisp,2.5,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,3,0,1,13923,Fuji,2.5,Poor
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,3,1,2,13923,Fuji,1,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,3,0,3,13923,Fuji,2.5,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,4,1,1,13924,Fuji,4,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,4,0,2,13924,Honeycrisp,1,Poor
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,4,0,3,13924,Fuji,1,Poor
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,5,1,1,13925,Pink Lady,3,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,5,0,2,13925,Pink Lady,4,Average
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,5,0,3,13925,Fuji,4,Average
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,6,0,1,13926,Gala,3,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,6,0,2,13926,Gala,3.5,Average
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,6,1,3,13926,Fuji,1.5,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,7,0,1,13927,Red Delicious,2,Poor
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,7,0,2,13927,Gala,3,Average
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,7,1,3,13927,Honeycrisp,2.5,Excellent
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,8,0,1,13928,Fuji,2,Average
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,8,0,2,13928,Pink Lady,3.5,Poor
+41,1,raspberry,2,101,1741,2,0,60,1965,male,NA,white,NA,degree_grad,inc_150to200,NA,3.3666666666666667,8,1,3,13928,Gala,2.5,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,1,1,1,15457,Fuji,1.5,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,1,0,2,15457,Gala,3.5,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,1,0,3,15457,Pink Lady,4,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,2,1,1,15458,Pink Lady,3.5,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,2,0,2,15458,Fuji,1,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,2,0,3,15458,Pink Lady,1.5,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,3,0,1,15459,Pink Lady,1,Average
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,3,0,2,15459,Gala,3,Average
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,3,1,3,15459,Red Delicious,1,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,4,0,1,15460,Pink Lady,3,Average
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,4,1,2,15460,Fuji,2,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,4,0,3,15460,Gala,3,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,5,0,1,15461,Red Delicious,1,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,5,1,2,15461,Gala,2,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,5,0,3,15461,Pink Lady,1,Average
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,6,0,1,15462,Red Delicious,1.5,Average
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,6,0,2,15462,Fuji,4,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,6,1,3,15462,Honeycrisp,2,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,7,0,1,15463,Red Delicious,4,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,7,1,2,15463,Fuji,1,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,7,0,3,15463,Fuji,1.5,Excellent
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,8,0,1,15464,Red Delicious,2.5,Poor
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,8,0,2,15464,Honeycrisp,2,Average
+32,1,Manzana,2,147,1933,2,0,71,1980,female,NA,hispanic,NA,degree_grad,inc_15to25,NA,4.166666666666667,8,1,3,15464,Gala,2,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,1,1,1,13777,Pink Lady,3,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,1,0,2,13777,Honeycrisp,2.5,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,1,0,3,13777,Gala,2.5,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,2,0,1,13778,Fuji,2,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,2,1,2,13778,Honeycrisp,2,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,2,0,3,13778,Fuji,3.5,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,3,0,1,13779,Pink Lady,3,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,3,1,2,13779,Red Delicious,2.5,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,3,0,3,13779,Honeycrisp,3.5,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,4,0,1,13780,Pink Lady,1.5,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,4,1,2,13780,Gala,2,Average
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,4,0,3,13780,Honeycrisp,2.5,Average
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,5,1,1,13781,Red Delicious,1,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,5,0,2,13781,Red Delicious,4,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,5,0,3,13781,Pink Lady,1,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,6,0,1,13782,Fuji,1.5,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,6,1,2,13782,Fuji,3,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,6,0,3,13782,Honeycrisp,1.5,Poor
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,7,0,1,13783,Fuji,2.5,Average
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,7,0,2,13783,Fuji,1,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,7,1,3,13783,Gala,3.5,Excellent
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,8,0,1,13784,Honeycrisp,4,Average
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,8,1,2,13784,Fuji,1.5,Average
+89,1,Pineapple,2,179,1723,2,0,118,1968,male,NA,hispanic,NA,degree_grad,inc_100to150,NA,6.433333333333334,8,0,3,13784,Fuji,4,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,1,1,1,10897,Gala,1,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,1,0,2,10897,Red Delicious,2,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,1,0,3,10897,Red Delicious,1,Poor
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,2,0,1,10898,Red Delicious,1,Poor
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,2,1,2,10898,Red Delicious,3.5,Poor
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,2,0,3,10898,Honeycrisp,2.5,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,3,1,1,10899,Fuji,1.5,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,3,0,2,10899,Fuji,4,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,3,0,3,10899,Pink Lady,3,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,4,1,1,10900,Pink Lady,4,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,4,0,2,10900,Pink Lady,2,Poor
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,4,0,3,10900,Pink Lady,1.5,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,5,0,1,10901,Gala,3,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,5,1,2,10901,Fuji,2,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,5,0,3,10901,Gala,1.5,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,6,0,1,10902,Honeycrisp,3,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,6,1,2,10902,Red Delicious,3,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,6,0,3,10902,Pink Lady,2.5,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,7,0,1,10903,Gala,2.5,Average
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,7,0,2,10903,Gala,1,Poor
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,7,1,3,10903,Gala,4,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,8,0,1,10904,Pink Lady,1.5,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,8,1,2,10904,Honeycrisp,1.5,Excellent
+26,1,apple,2,1188,1363,2,0,0,1988,female,NA,hispanic,NA,degree_bs,inc_50to75,NA,20.233333333333334,8,0,3,10904,Pink Lady,2.5,Poor
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,1,1,1,7529,Pink Lady,2,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,1,0,2,7529,Fuji,3.5,Poor
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,1,0,3,7529,Red Delicious,2,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,2,0,1,7530,Red Delicious,2.5,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,2,1,2,7530,Honeycrisp,2,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,2,0,3,7530,Gala,1.5,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,3,1,1,7531,Honeycrisp,1,Excellent
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,3,0,2,7531,Fuji,4,Excellent
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,3,0,3,7531,Red Delicious,4,Poor
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,4,0,1,7532,Red Delicious,2.5,Poor
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,4,0,2,7532,Gala,3,Excellent
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,4,1,3,7532,Gala,1,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,5,0,1,7533,Honeycrisp,1,Poor
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,5,1,2,7533,Honeycrisp,4,Excellent
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,5,0,3,7533,Pink Lady,2,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,6,0,1,7534,Gala,4,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,6,0,2,7534,Pink Lady,3,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,6,1,3,7534,Pink Lady,1,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,7,0,1,7535,Fuji,3.5,Excellent
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,7,0,2,7535,Fuji,2,Poor
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,7,1,3,7535,Gala,1.5,Excellent
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,8,1,1,7536,Gala,1,Average
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,8,0,2,7536,Gala,3,Poor
+14,1,kiwi,2,103,942,2,0,58,1998,female,NA,white,NA,degree_grad,inc_50to75,NA,2.9166666666666665,8,0,3,7536,Fuji,2,Poor
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,1,0,1,13609,Gala,2,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,1,0,2,13609,Gala,3.5,Poor
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,1,1,3,13609,Red Delicious,1.5,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,2,0,1,13610,Fuji,3.5,Poor
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,2,0,2,13610,Red Delicious,4,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,2,1,3,13610,Pink Lady,3,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,3,0,1,13611,Red Delicious,3.5,Poor
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,3,0,2,13611,Honeycrisp,2.5,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,3,1,3,13611,Pink Lady,1.5,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,4,0,1,13612,Pink Lady,3,Poor
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,4,1,2,13612,Honeycrisp,2.5,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,4,0,3,13612,Fuji,3,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,5,0,1,13613,Gala,3,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,5,0,2,13613,Fuji,3.5,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,5,1,3,13613,Fuji,3,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,6,0,1,13614,Gala,1.5,Poor
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,6,0,2,13614,Fuji,2,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,6,1,3,13614,Honeycrisp,1,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,7,0,1,13615,Red Delicious,3.5,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,7,1,2,13615,Fuji,1,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,7,0,3,13615,Honeycrisp,2.5,Excellent
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,8,0,1,13616,Pink Lady,1.5,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,8,1,2,13616,Honeycrisp,1.5,Average
+21,3,apples!,2,116,1702,2,0,45,1996,male,NA,black,NA,degree_associate,inc_35to50,NA,3.033333333333333,8,0,3,13616,Red Delicious,3.5,Excellent
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,1,0,1,3465,Red Delicious,1,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,1,0,2,3465,Red Delicious,3,Excellent
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,1,1,3,3465,Fuji,4,Average
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,2,0,1,3466,Gala,4,Excellent
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,2,1,2,3466,Honeycrisp,2,Average
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,2,0,3,3466,Pink Lady,2,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,3,0,1,3467,Pink Lady,1.5,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,3,1,2,3467,Honeycrisp,3,Excellent
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,3,0,3,3467,Fuji,3,Average
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,4,1,1,3468,Pink Lady,2.5,Excellent
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,4,0,2,3468,Gala,3.5,Excellent
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,4,0,3,3468,Honeycrisp,3.5,Average
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,5,1,1,3469,Gala,3,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,5,0,2,3469,Red Delicious,1.5,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,5,0,3,3469,Honeycrisp,4,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,6,0,1,3470,Fuji,4,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,6,1,2,3470,Fuji,2.5,Average
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,6,0,3,3470,Pink Lady,4,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,7,1,1,3471,Pink Lady,1,Excellent
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,7,0,2,3471,Gala,1.5,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,7,0,3,3471,Pink Lady,3.5,Average
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,8,0,1,3472,Red Delicious,2.5,Average
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,8,0,2,3472,Gala,3.5,Poor
+44,2,bananas,2,119,434,2,0,28,prefer_not_say,male,NA,"black, native",NA,degree_bs,inc_50to75,NA,3.183333333333333,8,1,3,3472,Honeycrisp,1,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,1,0,1,5817,Pink Lady,3,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,1,0,2,5817,Red Delicious,1.5,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,1,1,3,5817,Fuji,3,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,2,0,1,5818,Gala,4,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,2,1,2,5818,Fuji,1,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,2,0,3,5818,Red Delicious,4,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,3,0,1,5819,Red Delicious,2.5,Poor
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,3,0,2,5819,Pink Lady,3,Poor
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,3,1,3,5819,Red Delicious,2.5,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,4,0,1,5820,Red Delicious,3.5,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,4,0,2,5820,Fuji,2.5,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,4,1,3,5820,Fuji,2.5,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,5,0,1,5821,Honeycrisp,2,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,5,0,2,5821,Pink Lady,2,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,5,1,3,5821,Honeycrisp,1.5,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,6,0,1,5822,Pink Lady,1,Poor
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,6,0,2,5822,Fuji,2,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,6,1,3,5822,Pink Lady,1.5,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,7,1,1,5823,Pink Lady,1,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,7,0,2,5823,Fuji,1,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,7,0,3,5823,Pink Lady,4,Excellent
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,8,0,1,5824,Honeycrisp,3.5,Poor
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,8,0,2,5824,Red Delicious,2.5,Average
+25,1,pineapple,2,87,728,2,0,19,prefer_not_say,male,NA,pacific,NA,vocational,inc_150to200,NA,2.183333333333333,8,1,3,5824,Pink Lady,1.5,Excellent
