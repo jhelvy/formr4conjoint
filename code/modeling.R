@@ -23,10 +23,10 @@ data <- clean_names(data)
     
 # Estimate the model
 model <- logitr(
-    data   = data,
-    choice = "choice",
-    obsID  = "obs_id",
-    pars   = c(
+    data    = data,
+    outcome = "choice",
+    obsID   = "obs_id",
+    pars = c(
         "price", 
         "type_fuji", "type_gala", "type_honeycrisp", "type_pink_lady",
         "freshness_average", "freshness_excellent")

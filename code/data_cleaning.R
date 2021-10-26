@@ -111,7 +111,7 @@ nrow(data)
 
 # Create choice data ---------
 
-# First gather the data
+# First convert the data to long format
 choiceData <- data %>% 
     pivot_longer(
         cols = cbc1:cbc8,
@@ -133,6 +133,19 @@ choiceData <- choiceData %>%
     mutate(choice = ifelse(choice == altID, 1, 0)) %>% 
     # Drop unused variables
     select(-image, -cbcPractice, -cbcAllSame)
+
+head(choiceData)
+
+# Create new values for respID & obsID
+nRespondents <- nrow(data)
+nAlts <- max(survey$altID)
+nQuestions <- max(survey$qID)
+choiceData$respID <- rep(seq(nRespondents), each = nAlts*nQuestions)
+choiceData$obsID <- rep(seq(nRespondents*nQuestions), each = nAlts)
+
+# Reorder columns - it's nice to have the "ID" variables first
+choiceData <- choiceData %>% 
+    select(ends_with("ID"), "choice", everything())
 
 head(choiceData)
 
