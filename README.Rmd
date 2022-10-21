@@ -39,7 +39,7 @@ If you want to run the code in the `survey` folder, you will need to install the
 
 ```{r, eval=FALSE}
 install.packages(c("remotes", "tidyverse", "jsonlite"))
-remotes::install_github("jhelvy/conjointTools")
+remotes::install_github("jhelvy/cbcTools")
 ```
 
 ## Author and License Information

@@ -31,7 +31,7 @@ install the following packages:
 
 ``` r
 install.packages(c("remotes", "tidyverse", "jsonlite"))
-remotes::install_github("jhelvy/conjointTools")
+remotes::install_github("jhelvy/cbcTools")
 ```
 
 ## Author and License Information
